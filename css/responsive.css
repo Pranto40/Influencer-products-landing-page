@@ -24,12 +24,12 @@
 
     .home {
         text-align: center;
-        min-height: 100vh;
+        min-height: 108vh;
         flex-flow: column-reverse;
     }
 
     .home .image {
-        padding-top: 15rem;
+        padding-top: 24rem;
     }
 
     .logo_icon {
@@ -72,5 +72,10 @@
 
     .f_p_image {
         flex: 1 1 36rem;
+    }
+
+    .logo_icon {
+        margin-bottom: 5rem;
+        margin-top: 4rem;
     }
 }
