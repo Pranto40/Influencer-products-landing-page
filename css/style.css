@@ -134,6 +134,22 @@ section {
     }
 }
 
+/* logo section */
+
+.logo_icon {
+    margin-bottom: 5rem;
+}
+
+.logo_icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 6rem;
+    align-items: center;
+    border-bottom: 1.5px solid #ddd;
+    border-top: 1.5px solid #ddd;
+    padding: 3rem 0;
+}
+
 /* products section */
 .products {
     min-height: 100vh;
@@ -223,6 +239,7 @@ section {
     justify-content: end;
     font-size: 1.5rem;
     margin-top: 5rem;
+    color: rgba(224, 44, 109, 0.87);
 }
 
 .p_btn i {
@@ -269,12 +286,41 @@ section {
     max-width: 45rem;
 }
 
+/* contact section */
+
+.contact form {
+    max-width: 60rem;
+    margin: 0 auto 2rem auto;
+    border-radius: var(--border_radius);
+    padding: 3rem;
+    border: 1px solid #ddd;
+}
+
+.contact form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    background: none;
+    text-transform: none;
+    color: #E02C6D;
+    border: 1px solid #ddd;
+    margin: .7rem 0;
+}
+
+.contact form .box textarea {
+    height: 15rem;
+    resize: none;
+}
+
+
 /* footer section */
 
 .footer {
     text-align: center;
     background: red;
     padding: 3rem 0;
+    margin-top: 8rem;
 }
 
 .footer h1 {
